@@ -29,6 +29,9 @@ html {
 #color5 {
   background: #d90429; }
 
+img {
+  max-width: 100%; }
+
 header {
   background: #2b2d42;
   color: #edf2f4;
@@ -77,7 +80,9 @@ h2 {
 
 .container {
   max-width: 1024px;
-  margin: auto; }
+  margin: auto;
+  padding: 0px 25px;
+}
 
 .left {
   width: 60%;
