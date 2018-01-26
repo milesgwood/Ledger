@@ -1,0 +1,66 @@
+doctype html  
+html(lang='en')
+    head
+        title Ledger Nano S
+        link(rel="icon" type="image/x-icon" href="img/favicon.ico")
+        style
+            include style.css
+        script(src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous")
+    body
+        header
+            div.container
+                a(href="#") BuyLedgerUSA.com
+                ul
+                    li
+                        a(href="#who") Who We Are
+                    li
+                        a(href="#info") Ledger Info
+                    li
+                        a(href="#contact") Contact
+        //div.container
+        //    div(id="color1")
+        //    div(id="color2")
+        //    div(id="color3")
+        //    div(id="color4")
+        //    div(id="color5")
+        div.content
+            div.container
+                div(class="left")
+                    h1 Ledger Nano S
+                    h2 Cryptocurrency hardware wallet
+                    p Ledger Nano S is a Bitcoin, Ethereum and Altcoins hardware wallet, based on robust safety features for storing cryptographic assets and securing digital payments. It connects to any computer (USB) and embeds a secure OLED display to double-check and confirm each transaction with a single tap on its side buttons.
+                    img(src="img/ledger-nano-s-fold-large.png")
+                div.right.pad-top
+                    div(class="price") $99
+                        div(class="grey-box") FREE SHIPPING
+                    div(class="buy-now")
+                        include paypalbutton.html
+            div.tint
+                div.container
+                    h2(id="info") Secure your Crypto Assets
+                    h4 LATEST GENERATION HARDWARE
+                    p When you own cryptocurrencies, you need to protect your confidential data and the access to your funds. With Ledger Nano S, secrets like private keys are never exposed: sensitive operations are isolated inside your hardware wallet within a state-of-the-art Secure Element, locked by a PIN code. Transactions can’t get tampered with, they are physically verified on the embedded screen with a simple press of a button.
+
+                    h4 PAY AND AUTHENTICATE
+                    p Ledger Nano S includes Bitcoin, Litecoin, Ethereum and Ethereum Classic companion apps, and other blockchain-based cryptocurrencies. You can send and receive payments, check your accounts and manage multiple addresses for each currency from the same device. Nano S also supports the FIDO® Universal Second Factor standard that simplifies the authentication process on compatible online services such as GMail, Dashlane, Dropbox or GitHub.
+                    img(src="img/Screen Shot 2018-01-25 at 9.17.04 PM.png")
+            div.container.centered.content
+                img(src="img/Screen Shot 2018-01-25 at 9.16.49 PM.png")
+                img(src="img/Screen Shot 2018-01-25 at 9.16.22 PM.png")
+                img.med(src="img/ledger-nano-s.jpg")
+            div.tint
+                div.container
+                    h2(id="who") Who Are You Buying From?
+                    p.left My name is Miles Greatwood. I am a crypto enthusiast who started mining Bitcoin on his laptop back in 2012. I didn't HODL very well but have remained involved in crypto and Bitcoin. I purchase bulk orders of these Ledger products and sell them to you so you can avoid high shipping fees and pre-order wait times. Ledger is the company that creates these products and is based in France. I'm based out of Charlottesville Virginia and only make these items availible for sale when I have them in stock. If you have any questions or concerns please don't heistate to reach out to me. I can help you setup your Ledger through a google hangout or on the phone.
+                    div.right
+                        img(src="img/miles.jpg")
+            div.container.centered.content
+                h2(id="contact") Have Questions?
+                div
+                    include contact-form.html
+            div.content
+        footer
+            p This site is owned and operated by Miles Greatwood of Braindead Designs LLC in Charlottesville Virginia
+            p To contact me call (804)-837-1166 or use the form above
+
+
