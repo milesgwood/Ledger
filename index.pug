@@ -5,18 +5,17 @@ html(lang='en')
         link(rel="icon" type="image/x-icon" href="img/favicon.ico")
         style
             include style.css
-        script(src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous")
     body
         header
             div.container
                 a(href="#") BuyLedgerUSA.com
-                ul
+                ul(class="nav")
                     li
-                        a(href="#who") Who We Are
+                        a(href="#who" class="js-anchor-link") Who We Are
                     li
-                        a(href="#info") Ledger Info
+                        a(href="#info" class="js-anchor-link") Ledger Info
                     li
-                        a(href="#contact") Contact
+                        a(href="#contact" class="js-anchor-link") Contact
         //div.container
         //    div(id="color1")
         //    div(id="color2")
@@ -62,5 +61,7 @@ html(lang='en')
         footer
             p This site is owned and operated by Miles Greatwood of Braindead Designs LLC in Charlottesville Virginia
             p To contact me call (804)-837-1166 or use the form above
+            script(src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous")
+            script(src="scripts.js") 
 
 
